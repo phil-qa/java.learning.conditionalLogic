@@ -12,3 +12,14 @@ For the conditional statements
 we also have bitwise operations :
 &
 |
+
+Note that = is not the same as == where the latter is a conditional check, there is an exception to this :
+int value = 10;
+if(value = 10) < that will generate an error as the operation is assigning a value not comparing it
+
+however
+boolean thing = false;
+if (thing = true)
+    //do something
+That is legit and will actually something even though the initial assignment was different, because the type supports
+an assignment to that true value 
