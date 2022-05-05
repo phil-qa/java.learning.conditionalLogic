@@ -3,3 +3,12 @@ evaluates to true from an expression
 
 This is conditional logic and operates on the two states of true and false
 
+For the conditional statements
+==
+<=
+>=
+&&
+||
+we also have bitwise operations :
+&
+|
