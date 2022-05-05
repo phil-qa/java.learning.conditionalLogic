@@ -1,0 +1,5 @@
+The If then is the most basic of all control flow statements. It executes on a certain piece of code if a condition
+evaluates to true from an expression
+
+This is conditional logic and operates on the two states of true and false
+
