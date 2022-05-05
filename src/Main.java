@@ -36,5 +36,12 @@ public class Main {
             System.out.println("My number is either 50 or less");
         if(myNumber >= 50)
             System.out.println("my number is either 50 or more");
+        if(myNumber >40 && myNumber<60)
+            System.out.println("My number is between 41 and 59");
+        if(myNumber == 1 || myNumber == 50)
+            System.out.println("My number is either 1 or 50");
+        if((myNumber == 1 || myNumber == 50) && myNumber > 5)
+            System.out.println("My number is either 1 or 50 but is higher than 5 so it's 50 ");
+
     }
 }
