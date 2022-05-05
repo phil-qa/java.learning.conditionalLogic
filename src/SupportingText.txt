@@ -22,4 +22,8 @@ boolean thing = false;
 if (thing = true)
     //do something
 That is legit and will actually something even though the initial assignment was different, because the type supports
-an assignment to that true value 
+an assignment to that true value
+
+ternary operator
+This is a much nicer way of handling certain situations where perhaps there are limited responses needed to a logical
+check

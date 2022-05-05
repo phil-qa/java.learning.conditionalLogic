@@ -43,5 +43,14 @@ public class Main {
         if((myNumber == 1 || myNumber == 50) && myNumber > 5)
             System.out.println("My number is either 1 or 50 but is higher than 5 so it's 50 ");
 
+        boolean isGnu = false;
+
+        boolean wasGnu = isGnu ? true : false;
+
+        if(wasGnu)
+            System.out.println("wasGnu is true");
+        else
+            System.out.println("wasGnu was not true");
+
     }
 }
